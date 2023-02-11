@@ -1,0 +1,26 @@
+{
+  "name": "techbasket",
+  "version": "1.0.0",
+  "description": "The backend for techBasket",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman-v1/techBasket.git"
+  },
+  "author": "Aman Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aman-v1/techBasket/issues"
+  },
+  "homepage": "https://github.com/Aman-v1/techBasket#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
